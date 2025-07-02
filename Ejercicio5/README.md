@@ -6,7 +6,7 @@
 
 ### Diagrama de Casos de uso
 
-
+![alt text](image.png)
 
 ### Diagrama de Clases
 

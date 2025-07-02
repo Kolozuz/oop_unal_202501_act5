@@ -26,3 +26,10 @@ Se requiere un constructor que inicialice los atributos del equipo. El equipo es
 - Un método para añadir programadores al equipo. Si el equipo está lleno se debe imprimir la excepción correspondiente.
 - Un método para validar los atributos nombre y apellidos de un programador para que reciban datos que sean solo texto. Si se reciben datos numéricos se debe generar la excepción correspondiente. Además, no se permiten que los campos String tengan una longitud igual o superior a 20 caracteres.
 - En un método main se debe crear un equipo solicitando sus datos por teclado y se validan los nombres y apellidos de los programadores.
+
+### Solución
+
+[Click para ver código fuente](https://github.com/Kolozuz/oop_unal_202501_act5/blob/main/Ejercicio4/code.py)
+
+#### Ejecución del programa
+
