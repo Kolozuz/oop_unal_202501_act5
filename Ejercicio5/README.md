@@ -6,11 +6,11 @@
 
 ### Diagrama de Casos de uso
 
-![alt text](image.png)
+![alt text](media/image-3.png)
 
 ### Diagrama de Clases
 
-
+![alt text](media/clasesejer5act5.svg)
 
 ### Solución
 
