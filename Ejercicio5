@@ -1,0 +1,26 @@
+## Ejercicio 6.4 (p.400)
+
+### Enunciado
+
+¿Cuál es el resultado de la ejecución del método main del siguiente progra-
+ma? Determinar qué se imprime en pantalla.
+
+
+### Diagrama de Casos de uso
+
+
+
+### Diagrama de Clases
+
+
+
+### Solución
+
+#### Definición de clases
+
+
+
+#### Ejecución del programa
+
+
+```python
