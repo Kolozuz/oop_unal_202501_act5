@@ -1,8 +1,12 @@
-## Ejercicio 3
+## Ejercicio 6.8. Lectura de archivos (p. 425)
 
-### Enunciado
+Al finalizar este ejercicio, el lector tendrá la capacidad para:
 
+- Crear un flujo de bytes para leer archivos de texto.
+- Conocer y aplicar las clases InputStreamReader y BufferedReader para la creación del flujo de bytes que facilita la lectura de archivos.
 
+### Enunciado: clase LeerArchivo
+Se tiene un archivo de texto denominado prueba.txt en una cierta localización en un sistema de archivos. Se requiere desarrollar un programa que lea dicho archivo de texto utilizando un flujo de bytes que muestre los contenidos del archivo en pantalla.
 
 ### Diagrama de Casos de uso
 

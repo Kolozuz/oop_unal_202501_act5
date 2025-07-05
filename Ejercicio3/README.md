@@ -1,8 +1,19 @@
-## Ejercicio 3
+## Ejercicio 6.6. `Catchs` múltiples (p. 410)
 
-### Enunciado
+### Objetivos de aprendizaje
+Al finalizar este ejercicio, el lector tendrá la capacidad para:
 
+- Definir múltiples catch para el tratamiento de excepciones.
+- Definir gestores para el tratamiento de excepciones aritméticas.
 
+### Enunciado: clase CálculosNuméricos
+Se requiere definir una clase denominada CálculosNúmericos que realice las siguientes operaciones:
+
+- Calcular el logaritmo neperiano recibiendo un valor double como parámetro. Este método debe ser estático. Si el valor no es positivo
+se genera una excepción aritmética.
+- Calcular la raíz cuadrada recibiendo un valor double como parámetro. Este método debe ser estático. Si el valor no es positivo se genera una excepción aritmética.
+Se debe crear un método main que utilice dichos métodos ingresando
+un valor por teclado.
 
 ### Diagrama de Casos de uso
 
