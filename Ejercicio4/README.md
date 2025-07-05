@@ -29,7 +29,7 @@ Se requiere un constructor que inicialice los atributos del equipo. El equipo es
 
 ### Diagrama de Casos de uso
 
-
+![alt text](media/image.svg)
 
 ### Diagrama de Clases
 
@@ -47,7 +47,6 @@ classDiagram
         +tamaño_maximo: int
         «constructor»EquipoMaraton(nombre: str, universidad: str)
         +agregar_programador(programador: Programador)
-        +mostrar_programadores()
         +esta_lleno() bool
         +validar_campo(valor_campo: str) bool
     }
@@ -66,8 +65,8 @@ classDiagram
         +run()
     }
 
-    EquipoMaraton "1" o-- "*" Programador : contiene
-    App "1" o-- "1" EquipoMaraton : crea/usa
+    EquipoMaraton o-- Programador : contiene
+    App o-- EquipoMaraton : crea/usa
 ```
 
 ### Solución
@@ -76,3 +75,22 @@ classDiagram
 
 #### Ejecución del programa
 
+**Cuando no se llena la información del equipo**
+
+![alt text](media/image.png)
+
+**Cuando se deja vacío alguno de los campos de los integrantes**
+
+![alt text](media/image-1.png)
+
+**Cuando alguno de los campos de los integrantes contiene dígitos**
+
+![alt text](media/image-2.png)
+
+**Cuando alguno de los campos de los integrantes tiene mas de 19 caracteres**
+
+![alt text](media/image-3.png)
+
+**Cuando la ejecucion es correcta**
+
+![alt text](media/image-4.png)
